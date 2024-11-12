@@ -1,0 +1,1 @@
+/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/launch/dual_ekf_navsat.launch.py

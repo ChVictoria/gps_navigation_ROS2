@@ -1,0 +1,57 @@
+[1.179s] Invoking command in '/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/build --no-deps symlink_data
+[1.564s] running develop
+[1.567s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.567s] !!
+[1.567s] 
+[1.567s]         ********************************************************************************
+[1.567s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.567s]         Instead, use pypa/build, pypa/installer or other
+[1.567s]         standards-based tools.
+[1.567s] 
+[1.567s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.568s]         ********************************************************************************
+[1.568s] 
+[1.568s] !!
+[1.568s]   easy_install.initialize_options(self)
+[1.815s] running egg_info
+[1.815s] creating nav2_gps_waypoint_follower_demo.egg-info
+[1.839s] writing nav2_gps_waypoint_follower_demo.egg-info/PKG-INFO
+[1.839s] writing dependency_links to nav2_gps_waypoint_follower_demo.egg-info/dependency_links.txt
+[1.839s] writing entry points to nav2_gps_waypoint_follower_demo.egg-info/entry_points.txt
+[1.839s] writing requirements to nav2_gps_waypoint_follower_demo.egg-info/requires.txt
+[1.840s] writing top-level names to nav2_gps_waypoint_follower_demo.egg-info/top_level.txt
+[1.840s] writing manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[1.889s] reading manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[1.889s] writing manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[1.916s] running build_ext
+[1.916s] Creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages/nav2-gps-waypoint-follower-demo.egg-link (link to .)
+[1.916s] Installing gps_waypoint_logger script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.916s] Installing interactive_waypoint_follower script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.916s] Installing logged_waypoint_follower script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.917s] 
+[1.917s] Installed /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo
+[1.917s] running symlink_data
+[1.917s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/ament_index
+[1.917s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index
+[1.917s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages
+[1.917s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/resource/nav2_gps_waypoint_follower_demo -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages
+[1.917s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/package.xml -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo
+[1.917s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[1.917s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/launch/mapviz.launch.py -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/launch/dual_ekf_navsat.launch.py -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/launch/gazebo_gps_world.launch.py -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/launch/gps_waypoint_follower.launch.py -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[1.918s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/config/gps_wpf_demo.mvc -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/config/dual_ekf_navsat_params.yaml -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/config/demo_waypoints.yaml -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/config/nav2_no_map_params.yaml -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[1.918s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/urdf/turtlebot3_waffle_gps.urdf -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf
+[1.918s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds
+[1.918s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/worlds/sonoma_raceway.world -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds
+[1.918s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models
+[1.918s] creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[1.919s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps/model.config -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[1.919s] symbolically linking /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps/model.sdf -> /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[1.949s] Invoked command in '/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/build --no-deps symlink_data
