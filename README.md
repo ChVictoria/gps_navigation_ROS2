@@ -9,6 +9,8 @@ source ~/ros_sw/install/setup.bash
 ```
 - Install packages
 ```
+sudo apt install ros-jazzy-navigation2
+sudo apt install ros-jazzy-nav2-bringup
 sudo apt install ros-jazzy-robot-localization
 sudo apt install ros-jazzy-mapviz
 sudo apt install ros-jazzy-mapviz-plugins
