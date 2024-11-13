@@ -14,7 +14,6 @@ sudo apt install ros-jazzy-mapviz
 sudo apt install ros-jazzy-mapviz-plugins
 sudo apt install ros-jazzy-tile-map
 ```
-```
 - Set path to robot model
 ```
 export GZ_SIM_RESOURCE_PATH="~/nav2_gps_waypoint_follower_demo/models"
