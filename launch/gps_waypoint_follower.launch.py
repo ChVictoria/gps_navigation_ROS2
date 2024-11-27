@@ -76,6 +76,7 @@ def generate_launch_description():
         condition=IfCondition(use_rviz)
     )
 
+
     mapviz_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_dir, 'mapviz.launch.py')),

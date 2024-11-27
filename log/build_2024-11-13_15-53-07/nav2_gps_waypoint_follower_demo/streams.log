@@ -1,0 +1,32 @@
+[0.652s] Invoking command in '/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/build --no-deps symlink_data
+[0.903s] running develop
+[0.903s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.903s] !!
+[0.903s] 
+[0.903s]         ********************************************************************************
+[0.903s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.903s]         Instead, use pypa/build, pypa/installer or other
+[0.903s]         standards-based tools.
+[0.903s] 
+[0.903s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.903s]         ********************************************************************************
+[0.903s] 
+[0.903s] !!
+[0.903s]   easy_install.initialize_options(self)
+[1.076s] running egg_info
+[1.092s] writing nav2_gps_waypoint_follower_demo.egg-info/PKG-INFO
+[1.092s] writing dependency_links to nav2_gps_waypoint_follower_demo.egg-info/dependency_links.txt
+[1.092s] writing entry points to nav2_gps_waypoint_follower_demo.egg-info/entry_points.txt
+[1.092s] writing requirements to nav2_gps_waypoint_follower_demo.egg-info/requires.txt
+[1.092s] writing top-level names to nav2_gps_waypoint_follower_demo.egg-info/top_level.txt
+[1.126s] reading manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[1.127s] writing manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[1.145s] running build_ext
+[1.145s] Creating /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages/nav2-gps-waypoint-follower-demo.egg-link (link to .)
+[1.145s] Installing gps_waypoint_logger script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.145s] Installing interactive_waypoint_follower script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.145s] Installing logged_waypoint_follower script to /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[1.146s] 
+[1.146s] Installed /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo
+[1.146s] running symlink_data
+[1.172s] Invoked command in '/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vik/navigation2_tutorials/nav2_gps_waypoint_follower_demo/build/nav2_gps_waypoint_follower_demo/build --no-deps symlink_data
